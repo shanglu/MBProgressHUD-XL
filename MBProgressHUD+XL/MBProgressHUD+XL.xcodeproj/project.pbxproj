@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AE6ABF7EE100D18B76FE579 /* libPods-MBProgressHUD+XL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DC555C7E2392A83D51FC0D0 /* libPods-MBProgressHUD+XL.a */; };
+		3ED02D2C4F6606C9F1EF49C8 /* libPods-MBProgressHUD+XLUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2472D0DBCBD26833595307 /* libPods-MBProgressHUD+XLUITests.a */; };
 		897BC4FE20BD3E4500AA4B9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC4FD20BD3E4500AA4B9F /* AppDelegate.m */; };
-		897BC50120BD3E4500AA4B9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC50020BD3E4500AA4B9F /* ViewController.m */; };
-		897BC50420BD3E4500AA4B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897BC50220BD3E4500AA4B9F /* Main.storyboard */; };
 		897BC50620BD3E4600AA4B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 897BC50520BD3E4600AA4B9F /* Assets.xcassets */; };
 		897BC50920BD3E4600AA4B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897BC50720BD3E4600AA4B9F /* LaunchScreen.storyboard */; };
 		897BC50C20BD3E4600AA4B9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC50B20BD3E4600AA4B9F /* main.m */; };
 		897BC51620BD3E4600AA4B9F /* MBProgressHUD_XLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC51520BD3E4600AA4B9F /* MBProgressHUD_XLTests.m */; };
 		897BC52120BD3E4600AA4B9F /* MBProgressHUD_XLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC52020BD3E4600AA4B9F /* MBProgressHUD_XLUITests.m */; };
+		897BC53020BD3F3B00AA4B9F /* MBProgressHUD+XL.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC52E20BD3F3B00AA4B9F /* MBProgressHUD+XL.m */; };
+		897BC53320BD3FBD00AA4B9F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 897BC53220BD3FBD00AA4B9F /* ViewController.m */; };
+		897BC53520BD3FCB00AA4B9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897BC53420BD3FCB00AA4B9F /* Main.storyboard */; };
+		E3A363CD2C55F713C3BDC0D2 /* libPods-MBProgressHUD+XLTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36C6A2A690724B63B9BF02DE /* libPods-MBProgressHUD+XLTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DC555C7E2392A83D51FC0D0 /* libPods-MBProgressHUD+XL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD+XL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C6A2A690724B63B9BF02DE /* libPods-MBProgressHUD+XLTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD+XLTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		388D419B302D0ACD1E519BDA /* Pods-MBProgressHUD+XLUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XLUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XLUITests/Pods-MBProgressHUD+XLUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5805BB10E164C55C039A4936 /* Pods-MBProgressHUD+XL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XL/Pods-MBProgressHUD+XL.debug.xcconfig"; sourceTree = "<group>"; };
+		5AE0804640D435B5694953AB /* Pods-MBProgressHUD+XLTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XLTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XLTests/Pods-MBProgressHUD+XLTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E2472D0DBCBD26833595307 /* libPods-MBProgressHUD+XLUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MBProgressHUD+XLUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80DDF791146CA0FCF82AE194 /* Pods-MBProgressHUD+XLUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XLUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XLUITests/Pods-MBProgressHUD+XLUITests.release.xcconfig"; sourceTree = "<group>"; };
 		897BC4F920BD3E4500AA4B9F /* MBProgressHUD+XL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MBProgressHUD+XL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897BC4FC20BD3E4500AA4B9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		897BC4FD20BD3E4500AA4B9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		897BC4FF20BD3E4500AA4B9F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		897BC50020BD3E4500AA4B9F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		897BC50320BD3E4500AA4B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		897BC50520BD3E4600AA4B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		897BC50820BD3E4600AA4B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		897BC50A20BD3E4600AA4B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,13 @@
 		897BC51C20BD3E4600AA4B9F /* MBProgressHUD+XLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MBProgressHUD+XLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		897BC52020BD3E4600AA4B9F /* MBProgressHUD_XLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD_XLUITests.m; sourceTree = "<group>"; };
 		897BC52220BD3E4600AA4B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897BC52E20BD3F3B00AA4B9F /* MBProgressHUD+XL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XL.m"; sourceTree = "<group>"; };
+		897BC52F20BD3F3B00AA4B9F /* MBProgressHUD+XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XL.h"; sourceTree = "<group>"; };
+		897BC53120BD3FBC00AA4B9F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		897BC53220BD3FBD00AA4B9F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		897BC53420BD3FCB00AA4B9F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E32C4BBE35E466E9A85A43D9 /* Pods-MBProgressHUD+XLTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XLTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XLTests/Pods-MBProgressHUD+XLTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EDAE70F4B7007E38A6E87457 /* Pods-MBProgressHUD+XL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MBProgressHUD+XL.release.xcconfig"; path = "Pods/Target Support Files/Pods-MBProgressHUD+XL/Pods-MBProgressHUD+XL.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE6ABF7EE100D18B76FE579 /* libPods-MBProgressHUD+XL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A363CD2C55F713C3BDC0D2 /* libPods-MBProgressHUD+XLTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED02D2C4F6606C9F1EF49C8 /* libPods-MBProgressHUD+XLUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22D1E79EECC3E96B9F313279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DC555C7E2392A83D51FC0D0 /* libPods-MBProgressHUD+XL.a */,
+				36C6A2A690724B63B9BF02DE /* libPods-MBProgressHUD+XLTests.a */,
+				6E2472D0DBCBD26833595307 /* libPods-MBProgressHUD+XLUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		897BC4F020BD3E4500AA4B9F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				897BC51420BD3E4600AA4B9F /* MBProgressHUD+XLTests */,
 				897BC51F20BD3E4600AA4B9F /* MBProgressHUD+XLUITests */,
 				897BC4FA20BD3E4500AA4B9F /* Products */,
+				E7D2ABFC5AD861C6EB1F80EA /* Pods */,
+				22D1E79EECC3E96B9F313279 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,12 +131,14 @@
 		897BC4FB20BD3E4500AA4B9F /* MBProgressHUD+XL */ = {
 			isa = PBXGroup;
 			children = (
+				897BC52F20BD3F3B00AA4B9F /* MBProgressHUD+XL.h */,
+				897BC52E20BD3F3B00AA4B9F /* MBProgressHUD+XL.m */,
+				897BC53120BD3FBC00AA4B9F /* ViewController.h */,
+				897BC53220BD3FBD00AA4B9F /* ViewController.m */,
 				897BC4FC20BD3E4500AA4B9F /* AppDelegate.h */,
 				897BC4FD20BD3E4500AA4B9F /* AppDelegate.m */,
-				897BC4FF20BD3E4500AA4B9F /* ViewController.h */,
-				897BC50020BD3E4500AA4B9F /* ViewController.m */,
-				897BC50220BD3E4500AA4B9F /* Main.storyboard */,
 				897BC50520BD3E4600AA4B9F /* Assets.xcassets */,
+				897BC53420BD3FCB00AA4B9F /* Main.storyboard */,
 				897BC50720BD3E4600AA4B9F /* LaunchScreen.storyboard */,
 				897BC50A20BD3E4600AA4B9F /* Info.plist */,
 				897BC50B20BD3E4600AA4B9F /* main.m */,
@@ -132,6 +164,19 @@
 			path = "MBProgressHUD+XLUITests";
 			sourceTree = "<group>";
 		};
+		E7D2ABFC5AD861C6EB1F80EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5805BB10E164C55C039A4936 /* Pods-MBProgressHUD+XL.debug.xcconfig */,
+				EDAE70F4B7007E38A6E87457 /* Pods-MBProgressHUD+XL.release.xcconfig */,
+				E32C4BBE35E466E9A85A43D9 /* Pods-MBProgressHUD+XLTests.debug.xcconfig */,
+				5AE0804640D435B5694953AB /* Pods-MBProgressHUD+XLTests.release.xcconfig */,
+				388D419B302D0ACD1E519BDA /* Pods-MBProgressHUD+XLUITests.debug.xcconfig */,
+				80DDF791146CA0FCF82AE194 /* Pods-MBProgressHUD+XLUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897BC52520BD3E4600AA4B9F /* Build configuration list for PBXNativeTarget "MBProgressHUD+XL" */;
 			buildPhases = (
+				631C2D0AC56DECB536EF2105 /* [CP] Check Pods Manifest.lock */,
 				897BC4F520BD3E4500AA4B9F /* Sources */,
 				897BC4F620BD3E4500AA4B9F /* Frameworks */,
 				897BC4F720BD3E4500AA4B9F /* Resources */,
@@ -156,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897BC52820BD3E4600AA4B9F /* Build configuration list for PBXNativeTarget "MBProgressHUD+XLTests" */;
 			buildPhases = (
+				D73E0BBE1D4F142B87B38436 /* [CP] Check Pods Manifest.lock */,
 				897BC50D20BD3E4600AA4B9F /* Sources */,
 				897BC50E20BD3E4600AA4B9F /* Frameworks */,
 				897BC50F20BD3E4600AA4B9F /* Resources */,
@@ -174,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897BC52B20BD3E4600AA4B9F /* Build configuration list for PBXNativeTarget "MBProgressHUD+XLUITests" */;
 			buildPhases = (
+				4ABC88FC0BAA951A7824A21F /* [CP] Check Pods Manifest.lock */,
 				897BC51820BD3E4600AA4B9F /* Sources */,
 				897BC51920BD3E4600AA4B9F /* Frameworks */,
 				897BC51A20BD3E4600AA4B9F /* Resources */,
@@ -235,9 +283,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				897BC53520BD3FCB00AA4B9F /* Main.storyboard in Resources */,
 				897BC50920BD3E4600AA4B9F /* LaunchScreen.storyboard in Resources */,
 				897BC50620BD3E4600AA4B9F /* Assets.xcassets in Resources */,
-				897BC50420BD3E4500AA4B9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +305,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ABC88FC0BAA951A7824A21F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBProgressHUD+XLUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		631C2D0AC56DECB536EF2105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBProgressHUD+XL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73E0BBE1D4F142B87B38436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MBProgressHUD+XLTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		897BC4F520BD3E4500AA4B9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897BC50120BD3E4500AA4B9F /* ViewController.m in Sources */,
+				897BC53020BD3F3B00AA4B9F /* MBProgressHUD+XL.m in Sources */,
 				897BC50C20BD3E4600AA4B9F /* main.m in Sources */,
+				897BC53320BD3FBD00AA4B9F /* ViewController.m in Sources */,
 				897BC4FE20BD3E4500AA4B9F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +406,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		897BC50220BD3E4500AA4B9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				897BC50320BD3E4500AA4B9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		897BC50720BD3E4600AA4B9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -431,6 +529,7 @@
 		};
 		897BC52620BD3E4600AA4B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5805BB10E164C55C039A4936 /* Pods-MBProgressHUD+XL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +546,7 @@
 		};
 		897BC52720BD3E4600AA4B9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDAE70F4B7007E38A6E87457 /* Pods-MBProgressHUD+XL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +563,7 @@
 		};
 		897BC52920BD3E4600AA4B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E32C4BBE35E466E9A85A43D9 /* Pods-MBProgressHUD+XLTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +582,7 @@
 		};
 		897BC52A20BD3E4600AA4B9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE0804640D435B5694953AB /* Pods-MBProgressHUD+XLTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +601,7 @@
 		};
 		897BC52C20BD3E4600AA4B9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 388D419B302D0ACD1E519BDA /* Pods-MBProgressHUD+XLUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MBProgressHUD+XLUITests/Info.plist";
@@ -516,6 +619,7 @@
 		};
 		897BC52D20BD3E4600AA4B9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DDF791146CA0FCF82AE194 /* Pods-MBProgressHUD+XLUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "MBProgressHUD+XLUITests/Info.plist";
